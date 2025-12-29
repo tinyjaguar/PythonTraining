@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-load_dotenv()   # ✅ LOAD HERE (critical)
+load_dotenv()
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
